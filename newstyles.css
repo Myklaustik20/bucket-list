@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 2rem;
+}
+span {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    border: 3px solid black;
+    padding: 5px 7px;
+}
+#main-nav .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+    align-items: center;
+}
+
+#main-nav ul {
+    display: flex;
+}
+#main-nav .end {
+    margin-left: 100px;
+    background: gold;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#main-nav .end i {
+    font-size: 25px;
+    color: red;
+    padding-left: 7px;
+}
+#main-nav ul li a {
+    padding: 0.75rem;
+    font-size: 20px;
+}
+
+.head {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/boy.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 90vh;
+    position: relative;
+}
+
+.head .head-content {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+.head-content a {
+    background: gold;
+    padding: 11px 14px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.head-content a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+.head .head-content h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.main {
+    margin-top: 70px;
+}
+.main h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.main .row {
+width: 100%;
+display: flex;
+max-width: 1300px;
+margin: auto;
+}
+.mainl {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.mainr {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.float {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.main-l {
+    display: flex;
+    flex: 2;
+}
+
+.main-r {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    background-color: gold;
+    border: 2px solid black;
+}
+.main-r h3 {
+    font-size: 30px;
+    margin-left: 5px;
+    padding: 50px 0;
+}
+.main-r a {
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.main-r a:hover {
+    background: black;
+    color: white;
+    border: 2px solid gold;
+}
+
+.float h3 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.float a  {
+    background: gold;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.float a:hover {
+    background: black;
+    color: white;
+    border: 2px solid gold;
+}
+.right {
+    display: block;
+}
+.main-2 .second, .main-2 .third{
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    }
+.main-2 {
+    margin-bottom: 50px;
+}
+.second-1 {
+display: flex;
+flex: 33.33%;
+background-color: coral;
+margin: 0px 0px 15px 10px;
+padding: 100px;
+border-radius: 6px;
+text-align: center;
+}
+.block {
+    display: block;
+}
+.main-2 h2 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 45px;
+}
+
+.bg-1 { background-color: lightblue;}
+.bg-2 { background-color: lightgoldenrodyellow;}
+.bg-3 { background-color: lightgreen;}
+.bg-4 { background-color: lightskyblue;}
+.bg-5 { background-color: lightsalmon;}
+.bg-6 { background-color: lightsteelblue;}
+
+.second-1 h1 {
+font-size: 40px;
+margin-bottom: 5px;
+}
+.second-1 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom {
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+
+.bottom h1, .bottom h3 {
+    text-align: center;
+}
+.bottom-head {
+    margin-bottom: 40px;
+}
+.bottom-head h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.bottom-head h3 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottom ul {
+    display: flex;
+}
+.bottom ul li {
+    padding: 5px 50px;
+    text-align: center;
+}
+#bg1 { 
+    color: rgb(14, 136, 212);
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#bg2 {
+    color: rgb(209, 25, 25);
+    font-size: 23px;
+}
+#bg3 {
+    color: rgba(17, 49, 31, 0.384);
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    border: 2px solid rgba(17, 49, 31, 0.384);
+    border-radius: 7px;
+}
+#bg4 {
+    color: rgba(161, 81, 19, 0.925);
+    font-size: 25px;
+}
+#bg5 {
+    color: rgb(23, 189, 31);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.volunteer {
+    max-width: 1300px;
+    margin: auto;
+}
+.volunteer img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 45%;
+}
+.volunteer .volunteer1 {
+  float: left;
+  width: 50%; 
+  margin-bottom: 50px;
+  
+}
+
+.volunteer1 h3 {
+font-size: 30px;
+color: gold;
+}
+.volunteer1 i {
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.fab {
+    border: 2px solid black;
+    background-color: white;
+}
+.involve {
+max-width: 1300px;
+margin: auto;
+
+}
+
+.involve h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.involve .involve-head h3 {
+    text-align: center;
+}
+.involve .involved {
+    display: flex;
+    flex: 2;
+    text-align: center;
+    padding: 25px;
+}
+.inv-1 p {
+    line-height: 1.5rem;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.inv-1 h2 {
+font-size: 30px;
+} 
+.involved i {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: gold;
+}
+.involved a {
+    border: 2px solid black;
+    background-color: gold;
+    padding: 10px 8px;
+    
+}
+.inv-1 a {
+    font-size: 20px;
+    font-weight: bold;
+}
+.inv-1 a:hover{
+    background: black;
+    color: white;
+    border: 2px solid gold;
+}
+.inv-1 {
+    margin-right: 15px;
+}
+
+.inv-1:hover {
+    border: 7px solid gold;
+    margin-right: 15px;
+    padding: 50px 7px;
+}
+
+.foot {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 10px solid gold;
+}
+.foot .head2 {
+    flex: 70%;
+    padding: 0px 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.head2 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.head1 {
+text-align: center;
+margin-top: 50px;
+}
+.head1 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.head2 ul li {
+    font-size: 30px;
+}
+.head1 h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.head1 a {
+    border: 2px solid black;
+    background-color: gold;
+    padding: 10px 8px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.head1 a:hover {
+    background: black;
+    color: white;
+    border: 2px solid gold;
+}
+.head1 i {
+    color: red;
+    padding-left: 3px;
+    font-size: 50px;
+}
+.head2 .social {
+    margin-top: 30px;
+    font-size: 30px; 
+}
+.social i {
+    padding: 2px 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+footer i {
+    color: red;
+}
+footer b {
+    background-color: gold;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
